@@ -50,6 +50,9 @@ body ul {
   text-transform: uppercase;
   font-size: 0.8rem;
 }
+.header-navbar ul li .active {
+  color: #20c997;
+}
 .header-navbar ul li a:hover {
   color: #20c997;
 }
