@@ -100,3 +100,30 @@ Adicionando o mixin com o **@include**
 .danger <br>
  &nbsp; @include important-text <br>
  &nbsp; background-color: green <br>
+
+### Diretiva Sass **@extend**
+
+@extenddiretiva permite compartilhar um conjunto de propriedades CSS de um seletor para outro.
+
+@extenddiretiva é útil se você tiver elementos de estilo quase idênticos que diferem apenas em alguns pequenos detalhes.
+
+O exemplo Sass a seguir cria primeiro um estilo básico para botões (esse estilo será usado para a maioria dos botões). Em seguida, criamos um estilo para o botão "Relatório" e um estilo para o botão "Enviar". Ambos os botões "Report" e "Submit" herdam todas as propriedades CSS da classe .button-basic, através da @extenddiretiva. Além disso, eles têm suas próprias cores definidas:
+
+### Sintaxe SASS:
+
+.button-basic <br> 
+ &nbsp; border: none  <br> 
+ &nbsp; padding: 15px 30px  <br> 
+ &nbsp; text-align: center  <br> 
+ &nbsp; font-size: 16px  <br> 
+ &nbsp; cursor: pointer  <br> 
+
+
+.button-report   
+ &nbsp; @extend .button-basic  <br> 
+ &nbsp; background-color: red  <br> 
+
+.button-submit    
+ &nbsp; @extend .button-basic  <br> 
+ &nbsp; background-color: green  <br> 
+ &nbsp; color: white  <br> 
