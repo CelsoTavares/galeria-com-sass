@@ -101,6 +101,8 @@ Adicionando o mixin com o **@include**
  &nbsp; @include important-text <br>
  &nbsp; background-color: green <br>
 
+<hr>
+
 ### Diretiva Sass **@extend**
 
 @extenddiretiva permite compartilhar um conjunto de propriedades CSS de um seletor para outro.
