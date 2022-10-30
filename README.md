@@ -1,5 +1,5 @@
 # Galeria-com-sass
-### Projeto galeria desenvolvido no curso com sass
+### Projeto galeria desenvolvida com sass
 ### Variáveis Sass
 Sass usa o símbolo **$**, seguido por um nome, para declarar variáveis:
 
